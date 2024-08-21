@@ -1,73 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="utility.css" />
-
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0";
+    
+    <title>My Combined Webpage</title>
+    <link rel="stylesheet" href="style.css">
+  
 </head>
-
 <body>
-  <!-- <img src="logo.svg" alt=""> -->
-  <div class="container flex bg-black">
-    <div class="left">
-      <div class="home bg-grey rounded m-1 p-1">
-        <div class="logo invert">
-          <img src="logo.svg" alt="" />
-        </div>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Combined Webpage</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
         <ul>
-          <li><img class="invert" src="home.svg" alt="" />Home</li>
-          <li><img class="invert" src="search.svg" alt="" />Search</li>
-        </ul> 
-      </div>
-      <div class="library bg-grey rounded m-1 p-1">
-        <div class="heading">
-          <img src="library.svg" class="invert" alt="" />
-          <p>Your Library</p>
-          <img src="plus.svg" class="invert plus" alt="" />
-        </div>
-        <div class="footer">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
+    <!-- Main Content Section -->
+    <div class="container">
+        <main>
+            <h2>About This Page</h2>
+            <p>This is a simple webpage that includes a navigation menu, a heading, a paragraph, an image, and a form. This example demonstrates how to combine various HTML and CSS elements into a single page.</p>
+            
+            <img src="https://images.ctfassets.net/hrltx12pl8hq/3Z1N8LpxtXNQhBD5EnIg8X/975e2497dc598bb64fde390592ae1133/spring-images-min.jpg" alt="Placeholder Image">
 
-          <div>
-            <a href="https://www.spotify.com/in-en/legal/" data-encore-id="textLink">
-              <span data-encore-id="type">Legal</span>
-            </a>
-          </div>
-          <div>
-            <a href="https://www.spotify.com/in-en/safetyandprivacy/" data-encore-id="textLink">
-              <span data-encore-id="type">Safety & Privacy Center</span>
-            </a>
-          </div>
-          <div>
-            <a href="https://www.spotify.com/in-en/legal/privacy-policy/" data-encore-id="textLink">
-              <span data-encore-id="type">Privacy Policy</span>
-            </a>
-          </div>
-          <div>
-            <a href="https://www.spotify.com/in-en/legal/cookies-policy/" data-encore-id="textLink">
-              <span data-encore-id="type">Cookies</span>
-            </a>
-          </div>
-          <div>
-            <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" data-encore-id="textLink">
-              <span data-encore-id="type">About Ads</span>
-            </a>
-          </div>
-          <div>
-            <a href="https://www.spotify.com/in-en/accessibility/" data-encore-id="textLink">
-              <span data-encore-id="type">Accessibility</span>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="right bg-grey"></div>
+            <h2>Basic Form</h2>
+            <form action="#">
+                <input type="text" name="name" placeholder="Enter your name">
+                <input class="btn" type="submit" value="Submit">
+            </form>
+        </main>
     </div>
-      </div>
-     
-</body>
 
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Combined Webpage. All rights reserved.</p>
+    </footer>
+
+</body>
 </html>
